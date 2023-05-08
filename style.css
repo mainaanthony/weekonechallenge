@@ -1,0 +1,157 @@
+.all{
+    margin-left: 200px;
+
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 900px;
+    
+}
+.list{
+    justify-self: end;
+    padding-right: 0px;
+    color: grey;
+}
+.list ul{
+    display: flex;
+    height: 38px;
+    margin-top: 0px;
+}
+.list ul li{
+    padding: 20px;
+    list-style: none;
+    color: grey;
+}
+
+.container{
+    width: 900px;
+    background-color: white;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1Fr 1Fr 1fr;
+    grid-auto-rows: minmax(100px,auto);
+    margin-top: 20px;
+    
+
+    
+}
+.image{
+    background-color: cornflowerblue;
+    grid-column: 1/3;
+    background-image: url("C:\Users\tonym\3D Objects\WeekOneAssignment\weekonechallenge\news-homepage-main\news-homepage-main\assets\images\image-web-3-mobile.jpg");
+    height: 250px;
+}
+.new{
+    background-color: rgb(7, 15, 31);
+    grid-column: 3;
+    grid-row: 1/3; 
+      
+}
+.new h2{
+    color: #463f06;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.new h3{
+    color: white;
+    font-size: medium;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.new h4{
+    color: white;
+    font-size: small;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.new b{
+    color: white;
+    margin-left: 10px;
+}
+
+.the{
+    background-color: white;
+    margin-top: 0px;
+    justify-items: stretch;
+
+}
+.the h1{
+    font-size: 100;
+    text-align: center;
+
+}
+.read{
+    background-color:  white;
+}
+.read h6{
+    font-size: 13px;
+    color: grey;
+}
+.read button{
+    background-color: rgb(163, 32, 32);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+}
+.down1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    height: 50px;
+}
+.imaged{
+    grid-row: 1/3;
+    background-color: cornflowerblue;
+    height: 80px;
+    width: 70px;
+}
+
+.imaged img{
+    width: 100%;
+    height: 100%;
+}
+.num{
+    background-color: white;
+    height: 20px;
+    color: gray;
+}
+.num h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.text{
+    background-color: white;
+    height: 50.9333px;
+}
+.text h5{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.text h6{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.down2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    height: 50px;
+}
+.down3{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    height: 50px;
+}
+ul{
+
+   color: brown;
+}
